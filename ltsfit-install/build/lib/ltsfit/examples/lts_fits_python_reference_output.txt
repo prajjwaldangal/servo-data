@@ -1,0 +1,74 @@
+# lts_linefit_example() and lts_planefit_example() reference 
+# output for the LtsFit package version 5.0.18.
+# Generated under Python 3.7 using NumPy 1.18, SciPy 1.3, Matplotlib 3.1
+#
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running lts_linefit_example.py
+
+sig_int:     0.0000      2.5670
+Computing sig_int
+sig_int:     0.0000      2.5670
+sig_int:     0.4473     -0.3742
+sig_int:     0.3904     -0.2211
+sig_int:     0.3147      0.0725
+sig_int:     0.3334     -0.0120
+sig_int:     0.3308     -0.0005
+sig_int:     0.3306      0.0002
+Computing sig_int error
+sig_int:     0.3306      0.0982
+sig_int:     0.4473     -0.2761
+sig_int:     0.3612     -0.0243
+sig_int:     0.3552     -0.0016
+sig_int:     0.3547      0.0000
+sig_int:     0.3549     -0.0007
+Repeat at best fitting solution
+sig_int:     0.3306      0.0002
+################# Values and formal errors ################
+ intercept:  20.235 +/- 0.029
+     slope:  0.500 +/- 0.031
+   scatter:  0.331 +/- 0.024
+Observed rms scatter: 0.39 
+y = a + b*(x - pivot) with pivot = 20.4
+Spearman r=0.65 and p=5.3e-37
+Pearson r=0.5 and p=9.1e-21
+##########################################################
+seconds 10.75
+The best fitting parameters are: [ 20.23536506   0.49999518]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Running lts_planefit_example.py
+
+sig_int:     0.0000      2.3049
+Computing sig_int
+sig_int:     0.0000      2.3049
+sig_int:     1.5083     -0.4527
+sig_int:     1.2607     -0.2690
+sig_int:     0.9359      0.1216
+sig_int:     1.0371     -0.0240
+sig_int:     1.0204     -0.0017
+sig_int:     1.0191      0.0000
+sig_int:     1.0197     -0.0007
+Computing sig_int error
+sig_int:     1.0191      0.1029
+sig_int:     1.5083     -0.3498
+sig_int:     1.1303     -0.0347
+sig_int:     1.1023     -0.0024
+sig_int:     1.1002      0.0000
+sig_int:     1.1007     -0.0006
+Repeat at best fitting solution
+sig_int:     1.0191      0.0000
+################# Values and formal errors ################
+ intercept:  60.743 +/- 0.090
+    slopeX:  1.959 +/- 0.061
+    slopeY:  0.958 +/- 0.027
+   scatter:  1.019 +/- 0.081
+Observed rms scatter: 1.2
+z = a + b*(x - pivotx) + c*(y - pivoty)
+with pivotx = 19.55 & pivoty = 11.74
+##########################################################
+seconds 14.33
+The best fitting parameters are: [ 60.74285125   1.9590924    0.95786781]
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
